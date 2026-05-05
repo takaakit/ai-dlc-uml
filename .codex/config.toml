@@ -1,0 +1,5 @@
+[mcp_servers.astah-pro-mcp]
+transport = "http"
+url = "http://127.0.0.1:8888/mcp"
+startup_timeout_sec = 10
+default_tools_approval_mode = "approve"
