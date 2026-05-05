@@ -1,10 +1,10 @@
 {
-  "name": "aidlc-workflows-uml",
+  "name": "ai-dlc-uml",
   "description": "Install AI-DLC-UML workflow harness (AI agent instruction files, MCP configs) into the current directory.",
   "version": "0.1.0",
   "license": "UNLICENSED",
   "bin": {
-    "aidlc-workflows-uml": "bin/install.js"
+    "ai-dlc-uml": "bin/install.js"
   },
   "files": [
     "bin/",
