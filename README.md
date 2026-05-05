@@ -11,10 +11,10 @@ Key modifications to AI-DLC include:
 
 [^2]: Based on our personal experience, as of May 2026, AI agents other than these are not yet able to reliably distinguish among and use the more than 300 Astah Pro MCP tools.
 
-The orange-highlighted steps in the flowchart below show modifications to the original AI-DLC.
-
 <details>
 <summary>AI-DLC-UML workflow overview:</summary>
+
+The orange-highlighted steps show modifications to the original AI-DLC.
 
 ```mermaid
 flowchart TD
