@@ -1,6 +1,6 @@
 # AI-DLC-UML (AI-Driven Development Life Cycle with UML Modeling)
 
-AI-DLC-UML modifies [AI-DLC](https://github.com/awslabs/aidlc-workflows) to enable AI agents to drive the software development workflow with UML modeling. It is intended for those who want to collaborate using UML in their design practices, even in AI-driven software development.
+AI-DLC-UML modifies [AI-DLC](https://github.com/awslabs/aidlc-workflows) to enable AI agents to drive the software development workflow with UML modeling. It is intended for those who want to use UML modeling collaboratively in their design practices, even in AI-driven software development.
 
 Key modifications to AI-DLC include:
 - Application-design and functional-design artifacts are created as UML models.[^1]
@@ -69,7 +69,7 @@ flowchart TD
 
 </details>
 
-Tailor this workflow as needed to fit your preferred or required software development workflow. For example, if the target software system will not be mapped to AWS services, some steps could be modified. The Operations phase is included as a placeholder and should be defined according to your workflow.
+Tailor this workflow as needed to fit your preferred or required workflow. For example, if the target software system will not be mapped to AWS services, some steps could be modified. The Operations phase is included as a placeholder and should be defined according to your workflow.
 
 ## Demo
 
@@ -125,7 +125,7 @@ The images below show the created Tetris app and some of the UML diagrams create
 
 3. Setup AI-DLC-UML in your project directory
 
-   Running this command places the AI-DLC-UML folders and files in your project directory.
+   Run this command to place the AI-DLC-UML folders and files in your project directory.
 
    ```bash
    npx https://github.com/takaakit/ai-dlc-uml.git
@@ -145,7 +145,7 @@ The images below show the created Tetris app and some of the UML diagrams create
     └ GEMINI.md
    ```
 
-   If there are conflicts with existing files, such as AGENTS.md, CLAUDE.md, or GEMINI.md, back up the existing files if needed, then replace them.
+   If there are conflicts with existing files, back them up if needed, then replace them.
 
 4. Start Astah Pro
 
@@ -160,7 +160,7 @@ The images below show the created Tetris app and some of the UML diagrams create
    - Codex CLI: **GPT-5.5 or higher**
    - Gemini CLI: **Gemini 3.1 Pro or higher**
 
-6. Send a prompt starting with "Using AI-DLC-UML, "
+6. Send a prompt starting with **"Using AI-DLC-UML, ..."**
 
    Example prompt: *Using AI-DLC-UML, create a Java desktop app for Tetris*
 
