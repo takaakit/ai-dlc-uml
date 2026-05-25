@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "astah-pro-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@latest",
+        "http://127.0.0.1:8888/mcp",
+        "--allow-http"
+      ]
+    }
+  }
+}

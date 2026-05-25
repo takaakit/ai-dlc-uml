@@ -5,7 +5,7 @@ AI-DLC-UML modifies [AI-DLC](https://github.com/awslabs/aidlc-workflows) to enab
 Key modifications to AI-DLC include:
 - Application-design and functional-design artifacts are created as UML models.[^1]
 - A step has been added to maintain consistency between the design artifacts and the codebase.
-- Supported AI agents are limited to Claude Code, Codex CLI, and Gemini CLI.[^2]
+- Supported AI agents are limited to Claude Code, Codex CLI, and Antigravity CLI.[^2]
 
 [^1]: Other artifacts, such as non-functional requirements and technology stack definitions, are created as Markdown files, as in the original AI-DLC.
 
@@ -96,7 +96,7 @@ The images below show the created Tetris app and some of the UML diagrams create
 
 ## Requirements
 
-- Claude Code, Codex CLI, or Gemini CLI
+- Claude Code, Codex CLI, or Antigravity CLI
   > *Info:* Based on our personal experience, as of May 2026, we recommend Claude Code because its UML modeling capabilities appear more advanced than those of the others. Next, we recommend Codex CLI.
 
 - Astah Pro **v11.0 or later**
@@ -107,7 +107,7 @@ The images below show the created Tetris app and some of the UML diagrams create
 
 ## Installation
 
-- Install [Claude Code](https://claude.com/product/claude-code), [Codex CLI](https://developers.openai.com/codex/cli), or [Gemini CLI](https://geminicli.com/docs/get-started/installation/)
+- Install [Claude Code](https://claude.com/product/claude-code), [Codex CLI](https://developers.openai.com/codex/cli), or [Antigravity CLI](https://antigravity.google/download)
 
 - Install [Astah Pro](https://astah.net/products/astah-professional/)
 
@@ -136,13 +136,12 @@ The images below show the created Tetris app and some of the UML diagrams create
    ```
    Your project directory
     ├ .aidlc-rule-details
+    ├ .agents
     ├ .claude
     ├ .codex
-    ├ .gemini
     ├ .mcp.json
     ├ AGENTS.md
-    ├ CLAUDE.md
-    └ GEMINI.md
+    └ CLAUDE.md
    ```
 
    If there are conflicts with existing files, back them up if needed, then replace them.
@@ -153,12 +152,12 @@ The images below show the created Tetris app and some of the UML diagrams create
 
 5. Start AI agents
 
-   Run the `claude`, `codex`, or `gemini` command in your project directory. A confirmation dialog will pop up on initial connection. Check it and click 'Connect'.
+   Run the `claude`, `codex`, or `agy` command in your project directory. A confirmation dialog will pop up on initial connection. Check it and click 'Connect'.
 
    Recommended AI models:
    - Claude Code: **Sonnet 4.6 or higher**
    - Codex CLI: **GPT-5.5 or higher**
-   - Gemini CLI: **Gemini 3.1 Pro or higher**
+   - Antigravity CLI: **Gemini 3.1 Pro or higher**
 
 6. Send a prompt starting with **"Using AI-DLC-UML, ..."**
 
@@ -184,8 +183,8 @@ If you have a proposed improvement, please open an issue. Note that **any improv
 
 - [AI-DLC](https://github.com/awslabs/aidlc-workflows)
 - [Claude Code](https://claude.com/product/claude-code)
-- [Codex CLI](TODO)
-- [Gemini CLI](TODO)
+- [Codex CLI](https://developers.openai.com/codex/cli)
+- [Antigravity CLI](https://antigravity.google/download)
 - [Astah Pro](https://astah.net/products/astah-professional/)
 - [Astah Pro MCP](https://github.com/takaakit/astah-pro-mcp)
 - [Node.js](https://nodejs.org/)

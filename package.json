@@ -1,7 +1,7 @@
 {
   "name": "ai-dlc-uml",
   "description": "Install AI-DLC-UML workflow harness (AI agent instruction files, MCP configs) into the current directory.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "UNLICENSED",
   "bin": {
     "ai-dlc-uml": "bin/install.js"
@@ -9,13 +9,12 @@
   "files": [
     "bin/",
     ".aidlc-rule-details/",
+    ".agents/",
     ".claude/",
     ".codex/",
-    ".gemini/",
     ".mcp.json",
     "AGENTS.md",
-    "CLAUDE.md",
-    "GEMINI.md"
+    "CLAUDE.md"
   ],
   "engines": {
     "node": ">=20"

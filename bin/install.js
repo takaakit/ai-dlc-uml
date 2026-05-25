@@ -4,13 +4,12 @@ const path = require('node:path');
 
 const TARGETS = [
   '.aidlc-rule-details',
+  '.agents',
   '.claude',
   '.codex',
-  '.gemini',
   '.mcp.json',
   'AGENTS.md',
-  'CLAUDE.md',
-  'GEMINI.md'
+  'CLAUDE.md'
 ];
 
 const pkgRoot = path.resolve(__dirname, '..');
