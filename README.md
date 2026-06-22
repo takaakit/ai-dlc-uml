@@ -101,7 +101,7 @@ The images below show the created Tetris app and some of the UML diagrams create
 
 - Astah Pro **v11.0 or later**
 
-- Astah Pro MCP **v0.2.2 or later**
+- Astah Pro MCP **v0.2.5 or later**
 
 - Node.js **v20 or later**
 
