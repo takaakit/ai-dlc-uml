@@ -2,7 +2,7 @@
 
 ## MANDATORY: Check the Astah Pro MCP Version
 
-**CRITICAL**: The connected Astah Pro MCP server must be **version 0.2.5 or later**.
+**CRITICAL**: The connected Astah Pro MCP server must be **version 0.2.8 or later**.
 
 **Abort Workflow**: If the Astah Pro MCP server is not connected or the version is too old, abort the workflow.
 
