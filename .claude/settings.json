@@ -1,7 +1,7 @@
 {
-    "permissions": {
-        "allow": [
-            "mcp__astah-pro-mcp__*"
-        ]
-    }
+  "permissions": {
+    "allow": [
+      "mcp__astah-pro-mcp__*"
+    ]
+  }
 }
