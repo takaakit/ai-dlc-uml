@@ -99,9 +99,9 @@ The images below show the created Tetris app and some of the UML diagrams create
 - Claude Code, Codex CLI, or Antigravity CLI
   > *Info:* Based on our personal experience, as of May 2026, we recommend Claude Code because its UML modeling capabilities appear more advanced than those of the others. Next, we recommend Codex CLI.
 
-- Astah Pro **v11.0 or later**
+- Astah Pro **v12.0 or later**
 
-- Astah Pro MCP **v0.2.5 or later**
+- Astah Pro MCP **v0.2.8 or later**
 
 - Node.js **v20 or later**
 
@@ -155,9 +155,9 @@ The images below show the created Tetris app and some of the UML diagrams create
    Run the `claude`, `codex`, or `agy` command in your project directory. A confirmation dialog will pop up on initial connection. Check it and click 'Connect'.
 
    Recommended AI models:
-   - Claude Code: **Sonnet 4.6 or higher**
-   - Codex CLI: **GPT-5.5 or higher**
-   - Antigravity CLI: **Gemini 3.1 Pro or higher**
+   - Claude Code: **Sonnet 5 or higher**
+   - Codex CLI: **GPT-5.6 or higher**
+   - Antigravity CLI: **Gemini 3.6 or higher**
 
 6. Send a prompt starting with **"Using AI-DLC-UML, ..."**
 
