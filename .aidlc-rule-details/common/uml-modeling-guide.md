@@ -30,9 +30,13 @@ Understand what UML is and the significance of using it.
 
 Understand the different types of UML diagrams and how they are used.
 
-## MANDATORY: Recall Insights on UML and Modeling
+## MANDATORY: Recall Insights on UML, Modeling, and Architecture
 
-**Before modeling, you MUST** use the corresponding tool function to recall insights on UML and modeling.
+**Before modeling, you MUST** use the corresponding tool function to recall insights on UML, modeling, and architecture.
+
+## MANDATORY: Recall Architectural and Design Smells
+
+**Before modeling, you MUST** use the corresponding tool function to recall architectural smells and design smells that should be avoided.
 
 ## MANDATORY: Understand modeling in Astah Pro
 
@@ -50,5 +54,6 @@ Before creating, updating, or reviewing UML model elements and diagrams:
 - [ ] Check the Astah Pro MCP version
 - [ ] Understand UML
 - [ ] Understand Agile Modeling
-- [ ] Recall Insights on UML and Modeling
+- [ ] Recall Insights on UML, Modeling, and Architecture
+- [ ] Recall Architectural and Design Smells
 - [ ] Understand modeling in Astah Pro
