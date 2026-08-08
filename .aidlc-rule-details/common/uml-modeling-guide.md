@@ -48,6 +48,10 @@ Use the Astah Pro MCP tools to create, update, and review model elements and dia
 
 **Adjust diagram layout after changes:** After creating or updating a diagram, adjust the diagram layout so that it conforms to the diagram layout guide.
 
+## MANDATORY: Maintain Consistency Within and Across Model Elements and Diagrams
+
+**After modeling, you MUST** use the corresponding tool functions to maintain terminological consistency and semantic consistency, both within and across model elements and diagrams.
+
 ## Validation
 
 Before creating, updating, or reviewing UML model elements and diagrams:
@@ -57,3 +61,4 @@ Before creating, updating, or reviewing UML model elements and diagrams:
 - [ ] Recall Insights on UML, Modeling, and Architecture
 - [ ] Recall Architectural and Design Smells
 - [ ] Understand modeling in Astah Pro
+- [ ] Maintain Consistency Within and Across Model Elements and Diagrams — understood as mandatory after modeling (not performed here)
