@@ -4,6 +4,14 @@
 
 **CRITICAL**: All generated content MUST be validated before writing to files to prevent parsing errors.
 
+## File Encoding Rules
+
+**CRITICAL**: All AI-DLC-UML rule files and generated artifacts are **UTF-8 without BOM**.
+Always read and write them with the agent's native file I/O capability. Do NOT route file
+reads or writes through shell commands (`Get-Content`, `Out-File`, `cat`, `type`, etc.) —
+their defaults are platform-dependent and corrupt BOM-less UTF-8 (Windows PowerShell 5.1
+reads it as ANSI/CP932, and writes a BOM).
+
 ## ASCII Diagram Standards
 
 **CRITICAL**: Before creating ANY file with ASCII diagrams:
