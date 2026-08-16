@@ -7,6 +7,7 @@ const TARGETS = [
   '.agents',
   '.claude',
   '.codex',
+  '.grok',
   '.mcp.json',
   'AGENTS.md',
   'CLAUDE.md'
