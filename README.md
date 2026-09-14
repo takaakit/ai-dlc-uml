@@ -99,7 +99,7 @@ The images below show the created Tetris app and some of the UML diagrams create
 
 - Astah Pro **v12.0 or later**
 
-- Astah Pro MCP **v0.2.8 or later**
+- Astah Pro MCP **v0.3.0 or later**
 
 - Node.js **v20 or later**
 
@@ -117,11 +117,9 @@ The images below show the created Tetris app and some of the UML diagrams create
 
 ## Usage
 
-1. It is recommended to disable unused MCP tools to avoid reducing the AI agent's tool-calling accuracy.
+1. Open a terminal and go to your project directory
 
-2. Open a terminal and go to your project directory
-
-3. Setup AI-DLC-UML in your project directory
+2. Setup AI-DLC-UML in your project directory
 
    Run this command to place the AI-DLC-UML folders and files in your project directory.
 
@@ -145,11 +143,11 @@ The images below show the created Tetris app and some of the UML diagrams create
 
    If there are conflicts with existing files, back them up if needed, then replace them.
 
-4. Start Astah Pro
+3. Start Astah Pro
 
    > *Note:* Launch Astah Pro before starting AI agents, and it should remain open throughout the entire workflow.
 
-5. Start AI agents
+4. Start AI agents
 
    Run the `claude`, `codex`, `grok`, or `agy` command in your project directory. A confirmation dialog will pop up on initial connection. Check it and click 'Connect'.
 
@@ -159,7 +157,7 @@ The images below show the created Tetris app and some of the UML diagrams create
    - Grok Build: **Grok 4.6 or higher**
    - Antigravity CLI: **Gemini 3.6 or higher**
 
-6. Send a prompt starting with **"Using AI-DLC-UML, ..."**
+5. Send a prompt starting with **"Using AI-DLC-UML, ..."**
 
    Example prompt: *Using AI-DLC-UML, create a Java desktop app for Tetris*
 
