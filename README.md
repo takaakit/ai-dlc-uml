@@ -5,11 +5,9 @@ AI-DLC-UML modifies [AI-DLC](https://github.com/awslabs/aidlc-workflows) to enab
 Key modifications to AI-DLC include:
 - Application-design and functional-design artifacts are created as UML models.[^1]
 - A step has been added to maintain consistency between the design artifacts and the codebase.
-- Supported AI agents are limited to Claude Code, Codex CLI, Grok Build, and Antigravity CLI.[^2]
+- Supported AI agents are limited to Claude Code, Codex CLI, Grok Build, and Antigravity CLI.
 
 [^1]: Other artifacts, such as non-functional requirements and technology stack definitions, are created as Markdown files, as in the original AI-DLC.
-
-[^2]: Based on our personal experience, as of May 2026, AI agents other than these are not yet able to reliably distinguish among and use the more than 300 Astah Pro MCP tools.
 
 <details>
 <summary>AI-DLC-UML workflow overview:</summary>

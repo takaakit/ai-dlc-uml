@@ -1,8 +1,7 @@
 [mcp_servers.astah-pro-mcp]
 url = "http://127.0.0.1:8888/mcp"
 enabled = true
+allowed_tools = []
 
 [permission]
-rules = [
-  { action = "allow", tool = "MCPTool", pattern = "astah-pro-mcp__*" },
-]
+allow = ["MCPTool(astah-pro-mcp__*)"]
