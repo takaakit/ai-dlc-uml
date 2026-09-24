@@ -9,8 +9,7 @@ const TARGETS = [
   '.codex',
   '.grok',
   '.mcp.json',
-  'AGENTS.md',
-  'CLAUDE.md'
+  'AGENTS.md'
 ];
 
 const pkgRoot = path.resolve(__dirname, '..');

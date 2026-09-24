@@ -137,8 +137,7 @@ The images below show the created Tetris app and some of the UML diagrams create
     ├ .codex
     ├ .grok
     ├ .mcp.json
-    ├ AGENTS.md
-    └ CLAUDE.md
+    └ AGENTS.md
    ```
 
    If there are conflicts with existing files, back them up if needed, then replace them.

@@ -14,8 +14,7 @@
     ".codex/",
     ".grok/",
     ".mcp.json",
-    "AGENTS.md",
-    "CLAUDE.md"
+    "AGENTS.md"
   ],
   "engines": {
     "node": ">=20"
